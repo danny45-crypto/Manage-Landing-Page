@@ -152,6 +152,9 @@ body {
    color: var(--color-six);
    padding: 5px 15px;
    border-radius: 50px;
+   min-inline-size: 6ch;
+   display: inline-block;
+   text-align: center;
 }
 
 .mini-third-text-one {
@@ -164,6 +167,7 @@ body {
     color: var(--color-three);
     font-size: 0.7rem;
     line-height: 1.5;
+    text-wrap: balance;
 }
 
 .third-section {
@@ -255,6 +259,7 @@ footer {
     color: var(--color-six);
     font-size: 1.3rem;
     font-weight: 700 ;
+    text-wrap: balance;
 }
 
 .mini-fourth-btn {
