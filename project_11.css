@@ -20,6 +20,10 @@ body {
     margin: 0;
     font-family: var(--main-font);
     /* padding: 40px; */
+    background-image: url('./Images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 115% -5%;
+    background-size: 500px;
 }
 
 
@@ -91,6 +95,7 @@ body {
     line-height: 1.5;
     color: var(--color-three);
     font-weight: 400;
+    text-wrap: balance;
 }
 
 .second-container-text-two {
