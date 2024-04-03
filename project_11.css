@@ -193,10 +193,12 @@ body {
 .second-third-section,
 .final-third-section {
     width: 100%;
-    position: relative;
     background: var(--color-six);
     padding: 30px;
+    display: grid;
+    place-items: center;
 }
+
 
 
 
@@ -216,17 +218,20 @@ body {
 }
 
 
-.mini-image {
+.first-mini-image,
+.second-mini-image,
+.third-mini-image {
     width: 50px;
-    position: absolute;
-    left: 130px;
-    bottom: 150px;
+    margin-top: -50px;
 }
+
 
 
 .third-section-text {
     margin: 50px;
     text-align: center;
+    display: flex;
+    place-content: center;
 }
 
 
@@ -261,6 +266,7 @@ footer {
     font-size: 1.3rem;
     font-weight: 700 ;
     text-wrap: balance;
+    max-width: 20ch;
 }
 
 .mini-fourth-btn {
