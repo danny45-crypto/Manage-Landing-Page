@@ -323,3 +323,22 @@ nav {
     margin-bottom: 20px;
 }
 
+
+footer {
+    background: var(--third-color);
+}
+
+.first-last-section-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.first-last-section-container h3 {
+    font-size: 0.95rem;
+    font-weight: 450;
+}
+
+.first-last-section-container p {
+    font-size: 0.75rem;
+    text-wrap: wrap;
+}
